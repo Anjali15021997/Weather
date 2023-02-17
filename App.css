@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap");
+*
+{
+  padding: auto;
+  margin: 0;
+  font-family: 'Jost',sans-serif;
+}
+
+body
+{
+ padding:10px 50px;
+ min-height:100hv;
+ display:flex;
+ align-items:center;
+ flex-wrap: wrap;
+ height:100vh;
+ width:100vh;
+ justify-content:center;
+ /* background: rgba(9, 180, 210, 0.473); */
+ user-select:none;
+}
+
+html{
+  font-size: 100%;
+  height:100%;
+  /* background: #eee; */
+}
+
+
+.box
+{
+
+  background: url("https://www.accuweather.com/images/hero/4/1440x450.jpg");
+  height:80vh;
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content:center;
+}
+
+.heading
+{
+  color:White;
+  font-weight: 700;
+}
+
+
+.info
+{
+  
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content:center;
+}
+
+.inputData
+{
+  margin: auto;
+  width: 500px;
+  height: 50px;
+}
+ 
+ .icon
+ {
+  width:100px;
+  height:100px;
+  margin-top:1rem;
+ }
+ .wave{
+     top:85%;
+ }
+
+ #weathercon
+ {
+  font-size: 5em;
+ }
+ 
+.wave.-three
+{
+  animation:drift 5000ms infinite linear;
+  z-index:2;
+  opacity:0.2;
+}
+
+.wave.-two
+{
+  animation:drift 7000ms infinite linear;
+  z-index:3;
+  opacity:0.1;
+}
+
+.wave.-one
+{
+  animation:drift 10000ms infinite linear;
+  z-index:4;
+  opacity:0.0;
+}
+
+.inputField
+{
+  width: 50%;
+  margin:auto;
+  border-radius:5 rem;
+  padding:1rem, 1rem;
+  outline:none;
+  font-size:1.5rem;
+}
+
+.errorMsg
+{
+  text-align: center;
+  font-size: 2rem;
+  margin:2rem auto;
+}
+
+.info
+{
+  font-size: 1.5 rem;
+}
+
+
+
